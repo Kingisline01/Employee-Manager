@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Manager Data</title>
+    <link rel="stylesheet" href="assignment21.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://cdn-icons-png.flaticon.com/128/11630/11630992.png" alt="Employee Logo" class="center-img">
+        </div>
+
+        <h1>Employee Manager</h1>
+
+        <div class="input-section">
+            <input type="text" id="empName" placeholder="Employee Name" required>
+            <input type="number" id="empSalary" placeholder="Salary" required>
+            <input type="text" id="empDept" placeholder="Department" required>
+            <button id="addBtn">Add Employee</button>
+        </div>
+
+        <div class="action-buttons">
+            <button id="deleteLastBtn">Delete Last</button>
+            <button id="deleteFirstBtn">Delete First</button>
+            <!-- <button id="extractSalariesBtn">Extract Salaries</button>
+            <button id="filterSalariesBtn">Filter > 30k</button> -->
+            <button id="totalSalaryBtn">Total Salary</button>
+            <button id="avgSalaryBtn">Avg Salary</button>
+            <!-- <button id="jsonBtn">JSON Demo</button>
+            <button id="promiseBtn">Simulate Loading (Promise)</button> -->
+            <button id="fetchBtn">Fetch API Data</button>
+        </div>
+
+        <div id="messageBox" class="message-box">Welcome! Add an employee to begin.</div>
+
+        <div id="employeeList" class="employee-list"></div>
+    </div>
+
+    <script src="assignment21.js"></script>
+</body>
+</html>
